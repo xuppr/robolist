@@ -14,7 +14,6 @@ import { useQuery } from "@tanstack/react-query";
 const LIST_LENGTH = 20;
 
 const RobotCard = ({ name, index }: { name: string; index: number }) => {
-  console.log(index);
   return (
     <div className="robot-card">
       <div className="robot-card__image-container">
